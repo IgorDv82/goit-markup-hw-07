@@ -4,8 +4,8 @@
   line-height: $lh;
   letter-spacing: $ls;
 }
-@mixin centered($df: flex;, $ai: center;, $jc) {
+
+@mixin centered($df: flex, $ai: center) {
   display: $df;
   align-items: $ai;
-  justify-content: $jc;
 }

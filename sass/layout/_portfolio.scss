@@ -1,5 +1,5 @@
 .filter-list {
-  display: flex;
+  @include centered();
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
