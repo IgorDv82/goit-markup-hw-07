@@ -11,30 +11,17 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  &__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 696px;
+    text-align: center;
+  }
 }
-
-.hero-title {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  max-width: 696px;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+.main__title {
+  @include font(44px, 900, 1.36, 0.06em);
   text-transform: uppercase;
-  text-align: center;
+
   color: var(--hero-title-color);
-}
-
-.hero-btn {
-  transition-property: background-color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--time-function);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--button-accent);
 }

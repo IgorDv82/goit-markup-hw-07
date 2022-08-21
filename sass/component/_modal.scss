@@ -198,13 +198,3 @@
 .agreement-link {
   color: var(--accent-color);
 }
-
-.modal-btn {
-  transition-property: background-color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--time-function);
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--button-accent);
-}

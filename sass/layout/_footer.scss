@@ -153,13 +153,6 @@
 .subscribe-btn {
   @include centered();
   justify-content: center;
-  transition-property: background-color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--time-function);
-}
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: var(--button-accent);
 }
 .submit-icon {
   margin-left: 10px;
