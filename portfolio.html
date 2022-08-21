@@ -258,58 +258,62 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container footer-container">
+      <div class="container footer__container">
         <div class="contact-information">
-          <a href="./index.html" class="logo">Web<span class="logo-bottom">Studio</span> </a>
-          <address class="footer-address">
-            <ul class="footer-list list">
-              <li class="footer-item">
+          <a href="./index.html" class="logo footer__logo"
+            >Web<span class="logo__studio logo__studio--light">Studio</span>
+          </a>
+          <address class="address">
+            <ul class="address-list list">
+              <li class="address-list__item">
                 <a
                   href="https://goo.gl/maps/brbRvfbXfKNv5y6a6"
-                  class="footer-link link city"
+                  class="address-list__link address-list__link--white link"
                   target="_blank"
                   rel="noopener noreferer nofolow"
                 >
                   г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
-              <li class="footer-item">
-                <a href="mailto:info@example.com" class="footer-link link"> info@example.com </a>
+              <li class="address-list__item">
+                <a href="mailto:info@example.com" class="address-list__link link">
+                  info@example.com
+                </a>
               </li>
-              <li class="footer-item">
-                <a href="tel:+380991111111" class="footer-link link"> +38 099 111 11 11 </a>
+              <li class="address-list__item">
+                <a href="tel:+380991111111" class="address-list__link link"> +38 099 111 11 11 </a>
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="join-us">
-          <p class="footer-title">приєднуйтесь</p>
-          <ul class="footer-soc-list list">
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
+        <div class="join-us footer__join-us">
+          <p class="join-us-title footer__join-us-title">приєднуйтесь</p>
+          <ul class="social-list list">
+            <li class="social-list__item">
+              <a href="" class="social-list__link social-list__link--background link">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
+            <li class="social-list__item">
+              <a href="" class="social-list__link social-list__link--background link">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
+            <li class="social-list__item">
+              <a href="" class="social-list__link social-list__link--background link">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a href="" class="footer-soc-link link">
-                <svg class="footer-soc-icon" width="20px" height="20px">
+            <li class="social-list__item">
+              <a href="" class="social-list__link social-list__link--background link">
+                <svg class="social-list__icon social-list__icon--color" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -318,19 +322,19 @@
         </div>
 
         <div class="subscribe">
-          <p class="subscribe-title">Підпишіться на розсилку</p>
-          <form class="subscribe-wrap">
+          <p class="subscribe-title footer_subscribe-title">Підпишіться на розсилку</p>
+          <form class="subscribe-form">
             <input
               type="email"
               name="subscribe-email"
               id="subscribe-email"
-              class="subscribe-input"
+              class="subscribe-form__input"
               placeholder="E-mail"
             />
-            <label for="subscribe-email" class="subscribe-label">E-mail</label>
-            <button type="submit" class="subscribe-btn btn">
+            <label for="subscribe-email" class="subscribe-form__label">E-mail</label>
+            <button type="submit" class="subscribe__btn btn">
               Підписатися
-              <svg class="submit-icon" width="24" height="24">
+              <svg class="btn__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

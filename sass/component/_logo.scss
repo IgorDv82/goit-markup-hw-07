@@ -9,4 +9,7 @@
   color: var(--accent-color);
 
   text-decoration: none;
+  &__studio {
+    color: var(--header-logo-studio);
+  }
 }

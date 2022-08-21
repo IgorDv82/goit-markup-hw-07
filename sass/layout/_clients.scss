@@ -17,11 +17,11 @@
     transition-property: color, border-color;
     transition-duration: var(--time-duration);
     transition-timing-function: var(--time-function);
-  }
-  &__link:hover,
-  &__link:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      border-color: var(--accent-color);
+    }
   }
   &__icon {
     fill: currentColor;
