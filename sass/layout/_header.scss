@@ -10,55 +10,13 @@
   @include centered(flex, center, null);
 }
 // links
-.link-list {
-  display: flex;
-  & .link-list__item + .link-list__item {
-    margin-left: 50px;
-  }
-  &__item {
-    position: relative;
-  }
-  .current {
-    color: var(--accent-color);
-  }
-}
+
 .header__link-list {
   margin-left: 93px;
 }
 
 // contacts
-.contact {
-  @include centered(flex, center, null);
-  & .contact__item + .contact__item {
-    margin-left: 50px;
-  }
-  &__link {
-    color: var(--primary-color-text);
-  }
-  &__icon {
-    fill: currentColor;
-    margin-right: 10px;
-  }
-}
-.header__contact {
+
+.header__contacts {
   margin-left: auto;
-}
-
-.link-list__link,
-.contact__link {
-  @include centered(flex, center, null);
-  padding-top: 31px;
-  padding-bottom: 31px;
-
-  @include font(14px, 500, 1.14, 0.02em);
-
-  color: var(--primary-title-color);
-
-  transition-property: color;
-  transition-duration: var(--time-duration);
-  transition-timing-function: var(--time-function);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
 }
