@@ -35,9 +35,7 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centered();
   width: 30px;
   height: 30px;
   padding: 0;
@@ -143,9 +141,7 @@
   transition-timing-function: var(--time-function);
 }
 .modal-comment::placeholder {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(12px, null, 1.17, 00.01em);
 
   color: rgba(117, 117, 117, 0.5);
 }
@@ -158,17 +154,11 @@
   margin-bottom: 30px;
 }
 .modal-agreement {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 14px;
-  line-height: 1.71;
+  @include centered();
+  @include font(14px, null, 1.71, null);
 }
 .agreement-check {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centered();
   width: 16px;
   height: 15px;
   margin-right: 7px;
